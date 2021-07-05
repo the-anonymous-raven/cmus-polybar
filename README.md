@@ -4,7 +4,7 @@ A simple polybar module to show current song playing on cmus along with the prog
 
 Demo
 --------------
-[![Preview video](preview/preview.mp4?raw=true)]
+[![Preview video](preview/preview.gif?raw=true)]
 
 
 
