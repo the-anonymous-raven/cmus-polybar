@@ -12,7 +12,7 @@ Demo
 How to use it
 ---------------
 
-1. Install Material Design Icons and put it in the font-N line in polybar config
+1. Install Material Design Icons and put it in the font-N line in polybar config. <br />
 e.g.
 ``` 
 font-2 = Material Design Icons:style=Regular:size=16;1
@@ -30,7 +30,7 @@ type = custom/script
 tail = true
 exec = sh location_of_cmus_wrapper/cmus_wrapper.sh 2> /dev/null
 click-left = cmus-remote -u
-click-right = cmus-remote -s
+click-right = cmus-remote -c
 click-middle = cmus-remote -n
 ```
 
@@ -39,7 +39,7 @@ Enjoy!
 Customizations
 -------------------
 
-You can pass one argument to cmus_wrapper.sh  in form of length of song to be displayed, within Exec line of polybar module.
+You can pass one argument to cmus_wrapper.sh  in form of length of song to be displayed, within Exec line of polybar module.<br />
 e.g. if you want your song to displayed at max of 10 characters, you can use this
 ```
  exec = sh location_of_cmus_wrapper/cmus_wrapper.sh 10 2>/dev/null
